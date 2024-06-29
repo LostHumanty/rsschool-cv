@@ -1,13 +1,13 @@
 1. #### Name:
    Pavel Chugaev
 
-3. #### Socials:
+2. #### Socials:
    * **Telegram**: [CosmosLovesUs](https://t.me/CosmosLovesUs)
    * **Discord**: lost_humanity
 3. #### About me:
-   My goal with this course is straightforward. I want to find a job in the IT field. I have good English skills and I’ve completed some Python courses, but now I want to try my luck with JS.
+   My goal with this course is straightforward. I want to find a job in the IT field. I have decent English skills and I’ve completed some Python courses, but now I want to try my luck with JS.
 
-5. #### Skills:
+4. #### Skills:
    * Basic Python
    * Basic Software Testing
 
@@ -17,12 +17,12 @@
      return a * b;
    }
    ```
-6. #### Work experience.
+6. #### Work experience:
    I worked for a couple of months as a game developer and a QA. Other than that, I don’t have any relevant IT work experience.
    
    [Call of Myth](https://store.steampowered.com/app/1409270/Call_of_Myth/) - game I've worked on.
 
-8. #### Education:
+7. #### Education:
    * Bachelor’s degree in industrial automation.
    * Python courses:
      + [“Python Generation”: course for beginners](https://stepik.org/cert/1518110?lang=en)
