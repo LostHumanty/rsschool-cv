@@ -1,1 +1,215 @@
-// style file creation comment
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav a:hover {
+    color: #03DAC6;
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #03DAC6;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.75);
+}
+
+.name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-right: 70px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #FFFFFF;
+}
+
+.profession {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #03DAC6
+}
+
+pre {
+    padding: 00px;
+    border-radius: 40px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    max-width: 100%;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #282828;
+    color: #BBBBBB;
+}
+
+a {
+    color: #BB86FC;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #03DAC6;
+    text-decoration: underline;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.img-container img {
+    transform: scale(0.5);
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.footer .img-container img {
+    width: 200px;
+    height: auto;
+    display: block;
+    transform: scale(0.5);
+}
+
+.icon {
+    width: 33px; 
+    height: 33px; 
+}
+
+.icon path {
+    fill: #03DAC6;
+}
+
+.separator {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    border: none;
+    height: 1px;
+    background-color: #5C5C5C;
+    margin: 10px 0;
+    width: 80%;
+  }
+
+.separator-nameseparator {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.separator-sectionseparator {
+    height: 15px;
+    width: 100%;
+    margin: 0;
+}
